@@ -36,10 +36,26 @@ background-color: rgb(35, 165, 197);
 .sec {
 background-color: rgb(35, 165, 197);
 }
-input {
+.inp {
 background-color: rgb(35, 165, 197);
   font-size: 30px;
 }
-button {
+.btn {
   font-size: 30px;
+}
+
+.form{
+    display: grid;
+      gap: 5px;
+      font-size: 40px;
+      margin-top: 15px;
+      background-color: rgb(35, 165, 197);
+}
+.butttton{
+  font-size: 30px;
+  background-color: rgb(142, 18, 214);
+}
+.container{
+  display: flex;
+  justify-content: center;
 }
