@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 5px;
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+.day {
+background-color: rgb(35, 165, 197);
+}
+.hour {
+background-color: rgb(35, 165, 197);
+}
+.min {
+background-color: rgb(35, 165, 197);
+}
+.sec {
+background-color: rgb(35, 165, 197);
+}
+input {
+background-color: rgb(35, 165, 197);
+  font-size: 30px;
+}
+button {
+  font-size: 30px;
+}
