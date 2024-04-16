@@ -1,5 +1,6 @@
 const startButton = document.querySelector('[data-start]');
 const stopButton = document.querySelector('[data-stop]');
+const colorInfoTextarea = document.getElementById('info');
 
 let intervalId = null;
 
@@ -22,4 +23,5 @@ function getRandomHexColor() {
 function changeColor() {
     const randomColor = getRandomHexColor();
     document.body.style.backgroundColor = randomColor;
+    colorInfoTextarea.value = `Aktualny kolor: ${randomColor}`;
 }
